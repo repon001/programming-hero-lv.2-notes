@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\learning\\programming-hero-lv.2-notes\\9.docker\\Steps To Build A Multi Container Application\\docker-with-typescript-backend\\logs\\winston\\errors\\.fe7e22ce7015550210a141cb1b759b19a86dc3ab-audit.json",
+    "files": [
+        {
+            "date": 1783151116040,
+            "name": "D:\\learning\\programming-hero-lv.2-notes\\9.docker\\Steps To Build A Multi Container Application\\docker-with-typescript-backend\\logs\\winston\\errors\\docker-2026-07-04-13-error.log",
+            "hash": "0773a18d030386bf90dd2268ab447881c12af250ce22e0082ac12b6a388ae935"
+        }
+    ],
+    "hashType": "sha256"
+}

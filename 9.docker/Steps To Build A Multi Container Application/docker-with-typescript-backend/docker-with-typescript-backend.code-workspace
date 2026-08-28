@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../docker-with-nextjs-frontend"
+		}
+	],
+	"settings": {}
+}

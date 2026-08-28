@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\learning\\programming-hero-lv.2-notes\\9.docker\\Steps To Build A Multi Container Application\\docker-with-typescript-backend\\logs\\winston\\successes\\.88f1737c3a41c68352e22d0a916db88e7e7f4c8a-audit.json",
+    "files": [
+        {
+            "date": 1783151116035,
+            "name": "D:\\learning\\programming-hero-lv.2-notes\\9.docker\\Steps To Build A Multi Container Application\\docker-with-typescript-backend\\logs\\winston\\successes\\docker-2026-07-04-13-45-16-success.log",
+            "hash": "d80c274fd705775f9b8ba06fce8331b8a7753bcd6f5da4f765a2fc27489fefe8"
+        },
+        {
+            "date": 1783151302660,
+            "name": "D:\\learning\\programming-hero-lv.2-notes\\9.docker\\Steps To Build A Multi Container Application\\docker-with-typescript-backend\\logs\\winston\\successes\\docker-2026-07-04-13-48-22-success.log",
+            "hash": "1bf97cebe31ed4e62c6ca4b501c594cdd006bcba31d58edde874dfe1082534c0"
+        },
+        {
+            "date": 1783151312572,
+            "name": "D:\\learning\\programming-hero-lv.2-notes\\9.docker\\Steps To Build A Multi Container Application\\docker-with-typescript-backend\\logs\\winston\\successes\\docker-2026-07-04-13-48-32-success.log",
+            "hash": "6fdfcdb816ec7c9cf993a8d846170320c0165c89ef0f63d1add40c72a7714ef8"
+        }
+    ],
+    "hashType": "sha256"
+}
