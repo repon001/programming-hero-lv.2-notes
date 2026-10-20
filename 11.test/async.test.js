@@ -1,6 +1,22 @@
 import CryptoJS from "crypto-js"
-import { describe, expect, it } from "vitest"
+import { describe, expect, it, beforeAll, afterAll, beforeEach, afterEach } from "vitest"
 import { encryptMessage, encryptMessagePromise } from "./async"
+
+beforeAll(() => {
+    console.log("Starting async tests...")
+})
+beforeEach(() => {
+    console.log("Starting a new test...")
+})
+
+afterEach(() => {
+    console.log("Test completed.")
+})
+
+afterAll(() => {
+    console.log("Async tests completed.")
+})
+
 
 describe("encryptMessage", () => {
     it("encrypts a message that can be decrypted back to the original", async () => {
