@@ -25,3 +25,7 @@ it('should provide NaN if at least one invalid number is provided', () => {
 
     expect(result).toBeNaN()
 })
+
+it('should throw an error if no array is provided', () => {
+    expect(() => add()).toThrow()
+})
