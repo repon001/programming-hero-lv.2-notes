@@ -19,22 +19,22 @@ export function encryptMessagePromise(message, key){
     })
 }
 
-const message = {
-    name: 'John Doe',
-    password: 'password123'
-}
+// const message = {
+//     name: 'John Doe',
+//     password: 'password123'
+// }
 
-const secretKey = "mySecretKey123"
+// const secretKey = "mySecretKey123"
 
-encryptMessage(JSON.stringify(message), secretKey, (encryptedMessage) => {
-    console.log("callback",encryptedMessage);
-});
+// encryptMessage(JSON.stringify(message), secretKey, (encryptedMessage) => {
+//     console.log("callback",encryptedMessage);
+// });
 
 
-encryptMessagePromise(JSON.stringify(message), secretKey)
-    .then((encryptedMessage) => {
-        console.log("promise", encryptedMessage);
-    })
-    .catch((error) => {
-        console.error("promise", error);
-    });
+// encryptMessagePromise(JSON.stringify(message), secretKey)
+//     .then((encryptedMessage) => {
+//         console.log("promise", encryptedMessage);
+//     })
+//     .catch((error) => {
+//         console.error("promise", error);
+//     });
