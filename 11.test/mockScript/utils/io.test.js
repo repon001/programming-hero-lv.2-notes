@@ -36,12 +36,15 @@ describe("saveTokenToFile", () => {
 
 vi.mock("fs");
 
+vi.mock('path')
+
 // good approach
 describe("saveTokenToFile", () => {
 
+    const data = "test-token";
+    const filePath = "token.txt";
+
     it("should append the token to the file", async () => {
-        const data = "test-token";
-        const filePath = "token.txt";
 
         await saveTokenToFile(data, filePath);
 
@@ -49,8 +52,6 @@ describe("saveTokenToFile", () => {
     })
 
     it("should save token to file and check file content", async () => {
-        const data = "test-token";
-        const filePath = "token.txt";
 
         fs.appendFile.mockClear();
         await saveTokenToFile(data, filePath);
@@ -60,4 +61,10 @@ describe("saveTokenToFile", () => {
             `\n${data}`,
         );
     });
+
+    it("should send proper argument when saving token to file",async () => {
+       await saveTokenToFile(data, filePath);
+
+        expect(fs.appendFile).toBeCalledWith(filePath, expect.stringContaining(data))
+    })
 });
