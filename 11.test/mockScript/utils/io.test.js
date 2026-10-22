@@ -34,11 +34,7 @@ describe("saveTokenToFile", () => {
 });
 */
 
-vi.mock("fs", () => ({
-    promises: {
-        appendFile: vi.fn().mockResolvedValue(undefined),
-    },
-}));
+vi.mock("fs");
 
 // good approach
 describe("saveTokenToFile", () => {
